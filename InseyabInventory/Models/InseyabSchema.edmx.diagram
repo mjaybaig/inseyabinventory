@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a32a701b44c944c1b394c5412da02bb8" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="InseyabAsgModel.Category" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.CustomerDemographic" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Customer" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Employee" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.OrderDetail" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Order" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Product" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Region" Width="1.5" PointX="11.375" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Shipper" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Supplier" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InseyabAsgModel.Territory" Width="1.5" PointX="10" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Products_Categories1" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Orders_OrderDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.CustomerCustomerDemo" ManuallyRouted="false" />
+        <AssociationConnector Association="InseyabAsgModel.Employee_territories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

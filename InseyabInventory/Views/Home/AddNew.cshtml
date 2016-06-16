@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Add New";
+}
+
+
+<h2>@ViewBag.Title</h2>
+
+<form action="/" method="post">
+    <label>Product Name</label><input type="text" name="pName" />
+    <label>Product Category</label> <select name="categs">@foreach (var item in collection)
+	{
+		 /**/
+	}</select>
+</form>
